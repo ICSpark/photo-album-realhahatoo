@@ -1,0 +1,42 @@
+body {
+    background-image: url(photos/background.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+        font-size: 30px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}   
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo img{
+    width: 48%;
+    margin: 1%; 
+}
